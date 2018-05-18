@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:theme="@style/Stilo3"
+            android:text="Paciente:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@color/corfundo"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@color/corfundo"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/logo2"
+        >
+        <CheckBox
+            android:id="@+id/hem"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="22dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="HEM"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/eas"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="22dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="EAS"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/epf"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="22dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="EPF"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/corfundo"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="-300dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="73dp"
+            android:background="@color/corfundo"
+            android:text="HEM"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/corfundo"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="73dp"
+            android:background="@color/corfundo"
+            android:text="HEM"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/corfundo"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="73dp"
+            android:background="@color/corfundo"
+            android:text="HEM"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/corfundo"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="-300dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="73dp"
+            android:background="@color/corfundo"
+            android:text="HEM"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/corfundo"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="73dp"
+            android:background="@color/corfundo"
+            android:text="HEM"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/corfundo"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="73dp"
+            android:background="@color/corfundo"
+            android:text="HEM"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/abo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="-300dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="72dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="ABO"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/pcr"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="72dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="PCR"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/hcg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="72dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="HCG"
+            android:theme="@style/Stilo5"/>
+
+
+        <CheckBox
+            android:id="@+id/gli"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="-300dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="122dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="GLI"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/col"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="122dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="COL"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/tri"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="122dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="TRI"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/hdl"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="-300dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="172dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="HDL"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/ure"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="172dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="URE"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/cre"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="172dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="CRE"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/aur"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="-300dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="222dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="AUR"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/tgo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="222dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="TGO"
+            android:theme="@style/Stilo5"/>
+
+        <CheckBox
+            android:id="@+id/tgp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="222dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="TGP"
+            android:theme="@style/Stilo5"/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+        <Button
+            android:id="@+id/btn_sair"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/btn_sair"
+            android:theme="@style/Stilo3"/>
+
+        <Button
+            android:id="@+id/btn_limpar"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:theme="@style/Stilo3"
+            android:text="@string/btn_limp"
+            />
+
+        <Button
+            android:id="@+id/btn_salvar"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:theme="@style/Stilo3"
+            android:text="@string/btn_salvar"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.example.emene.infolabsys.View.Usuario">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="NOME:"
+        android:theme="@style/Stilo2"/>
+
+    <EditText
+        android:id="@+id/us_nome"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/corfundo"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-285dp"
+        android:text="SENHA:"
+        android:theme="@style/Stilo2"/>
+
+    <EditText
+        android:id="@+id/us_senha"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="72dp"
+        android:background="@color/corfundo"
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="-285dp"
+        android:text="NÍVEL:"
+        android:theme="@style/Stilo2" />
+
+    <Spinner
+        android:id="@+id/sp_user"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:entries="@array/nivel"
+        android:background="@color/corfundo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+
+        ></Spinner>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_sair"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/btn_sair"
+        android:theme="@style/Stilo3"/>
+
+    <Button
+        android:id="@+id/btn_limpar"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:theme="@style/Stilo3"
+        android:text="@string/btn_limp"
+        />
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:theme="@style/Stilo3"
+        android:text="@string/btn_salvar"
+        android:onClick="caduser"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

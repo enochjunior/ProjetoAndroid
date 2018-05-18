@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">InfoLabSys</string>
+    <string name="id_pac">Paciente:</string>
+    <string name="id_hint">Nome:</string>
+    <string name="id_exa">Exames:</string>
+    <string name="btn_sair">Sair</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_limp">Limpar</string>
+    <string name="idpac">Paciente</string>
+    <string name="btn_proce">Procedimentos</string>
+    <string name="btn_novo">Novo</string>
+    <string-array name="sexo">
+        <item> </item>
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="nivel">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
