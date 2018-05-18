@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Apr 25 18:41:12 GMT-03:00 2018
+1.base=C\:\\xampp\\htdocs\\infolabsys\\Avaliacao\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\xampp\\htdocs\\infolabsys\\Avaliacao\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+1.path=classes.dex
